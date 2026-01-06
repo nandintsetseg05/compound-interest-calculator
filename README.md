@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 Compound Interest Calculator
 
-## Getting Started
+A modern, responsive compound interest calculator built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
+The app calculates investment growth using **monthly compounding** and displays results in a clean, fintech-style UI.
 
-First, run the development server:
+This project demonstrates real-world frontend architecture, financial calculation logic, and production-ready deployment practices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 **Live Site:** https://YOUR-VERCEL-LINK.vercel.app
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- 📈 Accurate compound interest calculation (monthly compounding)
+- 💵 Supports initial investment + monthly contributions
+- 🧮 Real-time updates as inputs change
+- 🔢 Proper currency formatting with thousands separators
+- 🎨 Modern fintech UI (glassmorphism, gradients)
+- 📱 Fully responsive (mobile & desktop)
+- ⚡ Built with Next.js App Router
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tech Stack
 
-## Deploy on Vercel
+| Layer | Technology |
+|-----|-----------|
+| Language | TypeScript |
+| Framework | Next.js (React) |
+| Styling | Tailwind CSS |
+| Runtime | Node.js |
+| Deployment | Vercel |
+| Version Control | Git & GitHub |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧠 How It Works
+
+The calculator uses **monthly compounding** and iteratively applies interest to ensure accuracy.
+
+**Logic:**
+- Annual interest rate is converted to a monthly rate
+- Investment grows month-by-month
+- Monthly contributions are added each cycle
+- Results include:
+  - Final balance
+  - Total contributions
+  - Interest earned
+
+This approach mirrors real financial systems more closely than simple formula shortcuts.
+
+---
+
