@@ -9,7 +9,7 @@ This project demonstrates real-world frontend architecture, financial calculatio
 
 ## 🚀 Live Demo
 
-🔗 **Live Site:** https://YOUR-VERCEL-LINK.vercel.app
+🔗 **Live Site:** https://compound-interest-calculator-nv3m87jbo.vercel.app/
 
 ---
 
